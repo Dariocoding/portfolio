@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../img/bg.png');
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {text-decoration: none;}
+
+.contenedor {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+}
+
+.tarjeta {
+    background: #fff;
+    margin: 40px 0;
+    border-radius: 5px;
+    overflow:hidden;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* SLIDER BANNER */
+
+.slider_banner {
+    overflow:hidden;
+    z-index: 1000;
+    position: relative;
+}
+
+.slider_banner .banner {
+    position: relative;
+    width: 100%;
+}
+
+.slider_banner .banner img {
+    vertical-align: top;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.slider_banner .flecha-banner {
+    font-size: 35px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, .2);
+    position:absolute;
+    top: 50%;
+    z-index: 1100;
+}
+
+.slider_banner .flecha-banner:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+.slider_banner .anterior {
+    left: 20px;
+}
+
+
+.slider_banner .siguiente {
+    right: 20px;
+}
+
+/* --------------------------------------- */
+/* ----- Slider Info */
+/* --------------------------------------- */
+
+.slider_info {
+	text-align: center;
+	overflow: hidden;
+	padding: 20px 0;
+	z-index: 1000;
+	position: relative;
+}
+
+/* Seccion Informacion */
+
+.slider_info .informacion {
+	width: 100%;
+}
+
+.slider_info .informacion article {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.slider_info .informacion article .slide{
+	background: #fff;
+	width: 100%;
+	left: 100%;
+	padding: 20px 80px;
+	position: absolute;
+}
+
+.slider_info .flecha-info {
+    font-size: 35px;
+    line-height: 35px;
+    color: #e6e6e6;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+}
+
+.slider_info .flecha-info:hover {
+    color: #6ed279;
+}
+
+.slider_info .anterior {
+    left: 20px;
+}
+
+.slider_info .siguiente {
+    right: 20px;
+}
+
+/* Estilos para los Slides de Info */
+.slider_info .informacion .nombre {
+    color: #444;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.slider_info .informacion .trabajo {
+    color: #8d8d8d;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 16px;
+  
+}
+
+.slider_info .informacion .pais {
+    color: #55acee;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.slider_info .informacion .pais img {
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.slider_info .informacion .texto {
+    color: #55acee;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.slider_info .informacion .subtitulo {
+    color: #444;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+/* Botones Slider Info */
+
+.slider_info .botones {
+    width: 100%;
+}
+
+.slider_info .botones span {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 0;
+    background: #e6e6e6;
+}
+
+.slider_info .botones .active {
+    background: #55acee;
+}
+
+/* REDES SOCIALES */
+
+.redes-sociales {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 20px;
+    padding: 14px 0;
+    color: #fff;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.redes-sociales .instagram {  background: #E74C3C ;}
+.redes-sociales .facebook {  background: #3b5998;}
+.redes-sociales .twitter {  background: #55acee;}
+
